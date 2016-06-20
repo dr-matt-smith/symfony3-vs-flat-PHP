@@ -1,0 +1,16 @@
+header {
+    background-color: yellow;
+    color: red;
+    padding: 1em;
+    border: 1px red solid;
+}
+
+nav {
+    border-bottom: 1px red solid;
+}
+
+.date {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: pink;
+}

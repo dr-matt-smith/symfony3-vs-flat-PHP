@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{% block pageTitle %}{% endblock %}</title>
+    <style>
+        @import "/css/blog.css";
+    </style>
+</head>
+
+<body>
+<header>welcome to the BLOG</header>
+
+<nav>
+    <ul>
+        <li><a href="/">Index (list)</a></li>
+        <li><a href="/about">About</a></li>
+    </ul>
+</nav>
+
+{% block content %}
+{% endblock %}
+
+</body>
+</html>
