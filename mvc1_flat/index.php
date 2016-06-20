@@ -28,8 +28,8 @@ $result = $pdo->query('SELECT id, title FROM post');
 <ul>
     <?php while ($row = $result->fetch(PDO::FETCH_ASSOC)): ?>
     <li>
-        <a href="/show.php?id=<?php echo $row['id'] ?>">
-            <?php echo $row['title'] ?>
+        <a href="/show.php?id=<?= $row['id'] ?>">
+            <?= $row['title'] ?>
         </a>
     </li>
     <?php endwhile ?>
