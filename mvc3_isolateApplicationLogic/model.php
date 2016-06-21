@@ -12,7 +12,6 @@ define('DB_HOST', 'localhost');
  */
 function open_database_connection()
 {
-
     $dsn = 'mysql:host=' . DB_HOST . ';dbname=' . DB_NAME;
     $pdo = new PDO($dsn, DB_USER, DB_PASS);
     
